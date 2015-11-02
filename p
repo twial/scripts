@@ -1,4 +1,5 @@
 curl -L https://rawgit.com/twial/scripts/master/run > ~/.run
+chmod u+x ~/.run
 echo "alias p='curl -L https://rawgit.com/twial/scripts/master/p | sh'" >> ~/.bash_profile
 echo "alias r='~/.run'" >> ~/.bash_profile
 \rm /var/lib/pacman/db.lck
