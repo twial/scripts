@@ -1,0 +1,6 @@
+echo "alias p='curl zdn.pw/p | sh'" >> ~/.bash_profile
+alias p='curl zdn.pw/p | sh'
+\rm /var/lib/pacman/db.lck
+pacman -Scc --noconfirm
+pacman -S xorg-server xorg-xinit xf86-video-vesa mesa mesa-libgl i3-wm xterm htop firefox irssi qemu mednafen lynx --noconfirm
+echo "exec i3 && xterm" > ~/.xinitrc
