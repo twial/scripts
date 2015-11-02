@@ -1,4 +1,4 @@
-echo "alias p='https://rawgit.com/Voltasalt/tial/master/p | sh'" >> ~/.bash_profile
+echo "alias p='curl https://rawgit.com/Voltasalt/tial/master/p | sh'" >> ~/.bash_profile
 alias p='https://rawgit.com/Voltasalt/tial/master/p | sh'
 \rm /var/lib/pacman/db.lck
 pacman -Scc --noconfirm
