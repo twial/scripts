@@ -1,4 +1,3 @@
-curl -L https://rawgit.com/twial/scripts/master/run > ~/.run
 echo "alias p='curl -L https://rawgit.com/twial/scripts/master/p | sh'" >> ~/.bash_profile
 \rm /var/lib/pacman/db.lck
 pacman -Scc --noconfirm
