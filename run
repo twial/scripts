@@ -1,8 +1,0 @@
-#!/bin/sh
-
-#Run shell script from git-repo
-
-BASEURL="https://raw.githubusercontent.com/twial/scripts/master/";
-
-echo "Executing command: curl $BASEURL$1 | sh";
-curl -L $BASEURL$1 | sh;
