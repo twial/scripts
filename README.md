@@ -5,7 +5,7 @@ Twitch Installs Arch Linux: Scripts
 These are community contributed scripts that can be run on http://www.twitch.tv/twitchinstallsarchlinux
 
 ## We can run scripts from this repo
-We have aliases! `r <script name>` will run any script in this repo. Fork and pull request to submit your scripts
+Once this is installed, typing `r <script name>` in the VM will run any script in this repo. Fork and pull request to submit your scripts
 
 ## Scripts
 
