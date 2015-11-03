@@ -16,6 +16,17 @@ if [ -n "$x" ]
         pacman -S $VBAM_PKG --noconfirm
 fi
 
+x=`pacman -Qs wget`
+
+if [ -n "$x" ] 
+    then
+        echo "wget is installed!"
+    else
+        echo "wget is not installed! installing.."
+        pacman -S wget --noconfirm
+fi
+
+
 #Also install zsh because i can't get bash to download the ROM file....
 
 x=`pacman -Qs zsh`
