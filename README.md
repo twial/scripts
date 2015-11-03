@@ -2,10 +2,10 @@
 Twitch Installs Arch Linux: Scripts
 
 ## What is this?
-These are community contributed scripts that can be runn on http://www.twitch.tv/twitchinstallsarchlinux
+These are community contributed scripts that can be run on http://www.twitch.tv/twitchinstallsarchlinux
 
 ## We can run scripts from this repo
-We mave aliases `r <script name>` will run any script in this repo. Fork and pull request to submit your scripts
+We have aliases! `r <script name>` will run any script in this repo. Fork and pull request to submit your scripts
 
 ## Scripts
 
