@@ -14,5 +14,5 @@ else
     echo "No database found."
 fi
 
-pacman -S vim xorg-server xorg-xinit xf86-video-vesa mesa mesa-libgl i3-wm xterm htop firefox irssi qemu mednafen lynx nethack xclock --noconfirm
+pacman -S vim xorg-server xorg-xinit xf86-video-vesa mesa mesa-libgl i3-wm xterm htop firefox irssi qemu mednafen lynx nethack xorg-xclock sl --noconfirm
 echo "exec i3 && xterm" > ~/.xinitrc

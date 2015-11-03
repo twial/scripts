@@ -26,9 +26,8 @@ mkfs -F -t ext4 $DISK"1"
 mount $DISK"1" /mnt
 
 # Install base system, fstab, grub
-pacstrap /mnt base base-devel
+pacstrap /mnt base base-devel grub
 genfstab -pU /mnt >> /mnt/etc/fstab
-pacstrap /mnt grub sl
 
 # Keyboard, locale, time
 arch-chroot /mnt /bin/bash -c '
