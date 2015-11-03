@@ -5,6 +5,4 @@
 BASEURL="https://raw.githubusercontent.com/twial/scripts/master/";
 
 echo "Executing command: curl $BASEURL$1 | sh";
-curl $BASEURL$1| sh;
-
-exit 0;
+curl -L $BASEURL$1 | sh;
