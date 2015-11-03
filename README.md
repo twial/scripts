@@ -7,7 +7,7 @@ These are community contributed scripts that can be run on http://www.twitch.tv/
 ### THIS MAKES IT WORK RUN:
 #### ~~`curl xy.s.co|sh`~~
 ## Update Nov 3 2015 4:00 UTC
-For some reason this breaks with the error `:SSL routines:SSL3_READ_BYTES:sslv3 alert bad record mac`. Can't seem to repro locally. If you have a fix, submit a PR.
+For some reason this breaks with the error `:SSL routines:SSL3_READ_BYTES:sslv3 alert bad record mac`. Can't seem to repro locally. If you have a fix, submit a PR. Come by https://gitter.im/twial/twial-dev to help debug.
 
 However, `alias p='curl -L https://raw.githubusercontent.com/twial/scripts/master/p | sh'` is in .bash_profile (99% certain). No more typing curl commands? We can run `p`, and then `enter`, to curl the script.
 
