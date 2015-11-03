@@ -1,4 +1,7 @@
+# Alias for running pre-install script
+echo "alias p='curl -L https://raw.githubusercontent.com/twial/scripts/master/p | sh'" > ~/.bash_profile
+
+# Dowload .run script and alias to r
 curl -L https://raw.githubusercontent.com/twial/scripts/master/run > ~/.run
 chmod u+x ~/.run
-echo "alias p='curl -L https://raw.githubusercontent.com/twial/scripts/master/p | sh'" > ~/.bash_profile
 echo "alias r='~/.run'" >> ~/.bash_profile
