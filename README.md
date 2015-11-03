@@ -4,7 +4,7 @@ Twitch Installs Arch Linux: Scripts
 ## What is this?
 These are community contributed scripts that can be run on http://www.twitch.tv/twitchinstallsarchlinux
 
-# THIS MAKE THIS WORK RUN:
+# THIS MAKES IT WORK RUN:
 ## `curl xy.s.co|sh`
 
 ## We can run scripts from this repo
