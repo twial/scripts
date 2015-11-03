@@ -28,6 +28,7 @@ mount $DISK"1" /mnt
 # Install base system, fstab, grub
 pacstrap /mnt base base-devel grub
 genfstab -pU /mnt >> /mnt/etc/fstab
+echo "archlinuxinstalls" > /mnt/etc/hostname
 
 # Keyboard, locale, time
 arch-chroot /mnt /bin/bash -c '
